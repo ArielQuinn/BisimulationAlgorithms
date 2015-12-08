@@ -1,0 +1,7 @@
+The file, KanellakisAndSmolka implements the O(mn) bisimulation algorithm. The file, PaigeAndTarjan.py implements the O(mlog(n)) algorithm.
+
+Both files can be run as is on python 2.7. There are examples of the programs at work at the bottom of each file. Alternatively, the examples could be removed and the files could be used as libraries.
+
+The major components of the programs are the following methods:
+isBisimulation - returns boolean saying whether two graphs are bisimilar.
+getCoarsestPartition - finds the coarsest partition and returns a list of nodes.
